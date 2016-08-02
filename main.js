@@ -325,24 +325,7 @@ function GetSiteUrl(ComeFrom) {
     var StrUrl = "";
     if (ComeFrom == null || ComeFrom == undefined)
         return "javascript:void(0)";
-    switch (ComeFrom.toString()) {
-        case "20002":
-            StrUrl = "shaoxing";
-            break;
-        case "20003":
-            StrUrl = "xuzhou";
-            break;
-        case "20004":
-            StrUrl = "chengdu";
-            break;
-        case "20005":
-            StrUrl = "linhai";
-            break;
-        case "20006":
-            StrUrl = "qingdao";
-            break;
-    }
-    return StrUrl != "" ? "http://" + StrUrl + ".safetree.com.cn/MainPage.html" : "javascript:void(0)";
+ 	return StrUrl != "" ? "http://fuzhou.safetree.com.cn/MainPage.html" : "javascript:void(0)";
 }
 
 /* Main */
